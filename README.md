@@ -3,7 +3,7 @@
 ## Abstract
 Image dehazing is a crucial low-level vision task that involves estimating latent haze-free images from hazy images. While convolutional neural network-based methods have dominated this field, vision Transformers, which have excelled in high-level vision tasks, have not been extensively explored for image dehazing. This project introduces DehazeFormer, an innovative model based on the popular Swin Transformer, but with key modifications such as a revised normalization layer, activation function, and spatial information aggregation scheme, tailored for image dehazing.
 
-We trained multiple variants of DehazeFormer on various datasets to validate its effectiveness. On the commonly used SOTS indoor set, our small model surpasses FFA-Net with only 25% of the parameters and 5% of the computational cost. Notably, our large model is the first to achieve a PSNR over 40 dB on the SOTS indoor set, significantly outperforming previous state-of-the-art methods. Additionally, we have collected a large-scale realistic remote sensing dehazing dataset to evaluate the model's capability to remove highly non-homogeneous haze.
+
 
 
 
